@@ -1,11 +1,12 @@
 package database
 
 import (
+	"C"
 	"log"
 	"os"
 
 	"github.com/Carlfred3010/goApp/models"
-	"github.com/glebarez/go-sqlite"
+	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )
