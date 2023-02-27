@@ -12,6 +12,7 @@ func welcome(c *fiber.Ctx) error {
 }
 
 func main() {
+
 	app := fiber.New()
 
 	app.Get("/api", welcome)
