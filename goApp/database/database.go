@@ -1,11 +1,11 @@
-package databse
+package database
 
 import (
 	"log"
 	"os"
 
 	"github.com/Carlfred3010/goApp/models"
-	"gorm.io/driver/sqlite"
+	"github.com/glebarez/go-sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )
