@@ -8,6 +8,8 @@ func hello(c *fiber.Ctx) error {
 }
 
 func main() {
+
+	user.InitialMigration()
 	app := fiber.New()
 
 	app.Get("/", hello)
