@@ -20,6 +20,7 @@ require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/glebarez/go-sqlite v1.20.3
 	github.com/google/uuid v1.3.0 // indirect
+	github.com/jinzhu/gorm v1.9.16
 	github.com/klauspost/compress v1.15.9 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.17 // indirect
